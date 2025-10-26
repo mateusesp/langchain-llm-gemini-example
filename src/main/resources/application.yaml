@@ -3,5 +3,5 @@ spring:
     name: langchain4j-llm-gemini
 
 gemini:
-    api: {$API_KEY} # Replace {$API_KEY} with your actual Gemini API key
-    model: gemini-2.5-flash
+  api-key: ${GEMINI_API_KEY}
+  model: gemini-2.5-flash
